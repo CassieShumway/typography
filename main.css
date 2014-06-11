@@ -165,7 +165,6 @@ p { font-weight: 400; }
 	background: #3fabda;
   color: #fff;
   font-family: "effra",sans-serif;
-  /*border-bottom: 1px solid #e9e9e9;*/
   padding: 5em;
 }
 
@@ -305,8 +304,6 @@ p { font-weight: 400; }
 }
 
 .column-third {
-/*  border-right: 1px dashed #eee;
-  border-bottom: 1px dashed #eee;*/
   float: left;
   padding-right: 1em;
   text-align: right;
@@ -328,23 +325,11 @@ p { font-weight: 400; }
   width: 50%;
 }
 
-/*.arrow {
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent;
-  border-bottom: 15px solid #eee;
-  display: block;
-  height: 0; 
-  margin-left: 274px;
-  width: 0; 
-}*/
-
 /* =================================
    WHITE SECTION - "TYPE"
    ============================== */
 
-.white-type {
-  padding: 4em;
-}
+.white-type { padding: 4em; }
 
 /* =================================
    LINES
@@ -355,32 +340,6 @@ hr {
   border-bottom: 2px solid #eee;
   margin: 2em auto;
   width: 3rem;
-}
-
-/* =================================
-   GIST OVERRIDES
-   ============================== */
-
-.gist .gist-file {
-  font-size: .9rem !important;
-  margin: 0 auto;
-  max-width: 750px;
-  overflow: hidden !important;
-  text-align: left;
-}
-
-.gist .gist-file .gist-data {
-  background: #f8f8f8 !important;
-  border-bottom: none !important;
-}
-
-.gist .gist-file .gist-meta {
-  display: none !important;
-}
-
-.gist-syntax .k {
-  color: #555 !important;
-  font-weight: normal !important;
 }
 
 /* =================================
