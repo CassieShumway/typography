@@ -1,0 +1,412 @@
+* {
+  -moz-box-sizing: border-box;                                                        
+  -webkit-box-sizing: border-box;                                                    
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff; 
+  color: #807575; 
+  font-size: 112%; 
+  font-family: "aktiv-grotesk-std",sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+	line-height: 2em;
+  margin: 0; 
+  padding: 0; 
+}
+
+h1 {
+  color: #E80C7A;
+  font-size: 5em;
+  font-family: "minion-pro",sans-serif;
+  font-weight: 500;
+  line-height: 1em;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 3em;
+  line-height: 1.3em;
+  text-align: center;
+}
+
+h3 { font-size: 1.5em; }
+
+p { font-weight: 400; }
+
+/* =================================
+   HEADER
+   ============================== */
+
+#header {
+  border-bottom: 1px solid #ddd;
+  margin: 0 auto;
+  padding: 15em 0;
+  text-align: center;
+}
+
+.headline {
+  background: #fff;
+  color: #E80C7A;
+  display: inline-block;
+  font-family: "minion-pro";
+  font-size: 1.35em;
+  font-style: italic;
+  font-weight: 500;
+  padding: 0 5%;
+  position: relative;
+  top: -17px;
+}
+
+.headline-bar {
+  margin: 0 auto;
+  margin-top: 1em;
+  height: 0;
+  text-align: center;
+  color: #999999;
+  border-bottom: 1px solid #ddd;
+  width: 490px;
+}
+
+/* =================================
+   WRAPPER
+   ============================== */
+
+.wrapper-large {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 880px;
+}
+
+.wrapper-medium {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 740px;
+}
+
+.wrapper-small {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 340px;
+}
+
+/* =================================
+   COLUMNS
+   ============================== */
+
+.row {
+  margin: 2em 0;
+  overflow: hidden;
+}
+
+.column {
+  float: left;
+  margin-left: 10%;
+  text-align: center;
+}
+
+.column:first-child { margin-left: 0; }
+
+.dashed { border: 1px dashed #eee; }
+
+.half { width: 45%; }
+
+.third { width: 23.5%; }
+
+/* =================================
+   YELLOW SECTION - "PROPER PUNCTUATION"
+   ============================== */
+
+.yellow {
+  background: #f8b504;
+  color: #fff;
+  padding: 4em;
+  font-family: "brandon-grotesque",sans-serif;
+}
+
+.yellow h2 { font-weight: 500; }
+
+.yellow h3 {
+  font-size: 2.2em;
+  font-weight: 700;
+}
+
+.yellow p {
+  font-size: 2em;
+  font-weight: 400;
+  margin-top: 0.5em;
+  text-align: left;
+}
+
+.circle {
+  border-radius: 50%;
+  border: 2px solid #fff;
+  height: 70px;
+  margin: 0 auto;
+  margin-right: 0;
+  padding: 0.6em 0;
+  width: 70px;
+}
+
+/*COLUMN*/
+.two-third { 
+  margin-left: 3%;
+  width: 56%;
+ }
+
+/* =================================
+   BLUE SECTION - "DASHING DASHES"
+   ============================== */
+
+.blue {
+	background: #3fabda;
+  color: #fff;
+  font-family: "effra",sans-serif;
+  /*border-bottom: 1px solid #e9e9e9;*/
+  padding: 5em;
+}
+
+.blue h2 { margin-top: 0; }
+
+.blue h3 { margin-bottom: 0; }
+
+.blue p { font-size: 1.2em; }
+
+/* =================================
+   WHITE SECTION - "HELLO HIERARCHY"
+   ============================== */
+
+.white-apolline {
+  color: #504646;
+  font-family: "apolline",serif;
+  padding: 6em;
+}
+
+.white-apolline h2 {
+  color: #504646;
+  font-size: 2.5em;
+  font-weight: 700;
+  margin: 0;
+  text-align: left;
+}
+
+.white-apolline h3 {
+  font-weight: 400;
+  font-size: 1.43em;
+  font-style: italic;
+  left: 3.9px;
+  margin-top: 0;
+  position: relative;
+  text-align: left;
+}
+
+.white-apolline p { font-size: 1.3em; }
+
+/* =================================
+   WHITE SECTION- "MAGIC MOODS"
+   ============================== */
+
+.white-kepler {
+  color: #554e4e;
+  font-family: "kepler-std",serif;
+  padding: 4em;
+}
+
+.white-kepler h2 { margin: 0; }
+
+.white-kepler h3 {
+  font-size: 1em;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  margin-top: 2.5em;
+}
+
+.white-kepler p { text-align: left; }
+
+.font-acta {
+  display: block;
+  font-family: "acta-poster-swashes",sans-serif;
+  font-size: 1.2em;
+  line-height: 1.7em;
+  margin: 0;
+}
+
+.box-magic-moods {
+  margin: 0 auto;
+  margin-top: 2em;
+  width: 100%;
+  max-width: 485px;
+}
+
+.tranform-magic { 
+  margin-left: -188px;
+  margin-bottom: 9.5px;
+  display: block;
+}
+
+.transform-of {
+  margin-top: -49px;
+  display: block;
+}
+
+.transform-moods {
+  display: block;
+  margin-top: -18px;
+  margin-left: 111px;
+}
+
+/* =================================
+   GREEN SECTION - "SERIF & SANS SERIF"
+   ============================== */
+
+.green {
+  background: #0ABEA5;
+  color: #fff;
+  margin: 0 auto;
+  padding: 4em;
+}
+
+.green h2 {
+  text-align: right;
+  font-weight: 400;
+  line-height: 0.8em;
+  margin-top: 0;
+}
+
+.serif-heading {
+  display: block;
+  font-family: "minion-pro",sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1.4em;
+}
+
+.serif-text {
+  font-family: "minion-pro",sans-serif;
+  font-size: 1.6em;
+  font-weight: 500;
+}
+
+.sans-serif-heading {
+  font-family: "aktiv-grotesk-std",sans-serif;
+  font-size: 0.8em;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+.sans-serif-text {
+  font-family: "aktiv-grotesk-std",sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.column-third {
+/*  border-right: 1px dashed #eee;
+  border-bottom: 1px dashed #eee;*/
+  float: left;
+  padding-right: 1em;
+  text-align: right;
+  width: 33%;
+}
+
+.column-half {
+  float: left;
+  padding-right: 1em;
+  text-align: right;
+  width: 45%;
+}
+
+.column-half-border {
+  border-left: 1px solid #eee;
+  float: left;
+  padding-left: 1em;
+  text-align: left;
+  width: 50%;
+}
+
+/*.arrow {
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid #eee;
+  display: block;
+  height: 0; 
+  margin-left: 274px;
+  width: 0; 
+}*/
+
+/* =================================
+   WHITE SECTION - "TYPE"
+   ============================== */
+
+.white-type {
+  padding: 4em;
+}
+
+/* =================================
+   LINES
+   ============================== */
+
+hr {
+  border: 0;
+  border-bottom: 2px solid #eee;
+  margin: 2em auto;
+  width: 3rem;
+}
+
+/* =================================
+   GIST OVERRIDES
+   ============================== */
+
+.gist .gist-file {
+  font-size: .9rem !important;
+  margin: 0 auto;
+  max-width: 750px;
+  overflow: hidden !important;
+  text-align: left;
+}
+
+.gist .gist-file .gist-data {
+  background: #f8f8f8 !important;
+  border-bottom: none !important;
+}
+
+.gist .gist-file .gist-meta {
+  display: none !important;
+}
+
+.gist-syntax .k {
+  color: #555 !important;
+  font-weight: normal !important;
+}
+
+/* =================================
+   CLEAR FIX
+   ============================== */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after { clear: both; }
+
+.cf { *zoom: 1; }
+
+/* =================================
+   ULTILIES
+   ============================== */
+
+.remove-margin-bottom { margin-bottom: 0; }
+
+.margin-bottom { margin-bottom: 5em; }
+
+.margin-top { margin-top: .3em; }
+
+.remove-margin-top { margin-top: 0; }
+
+
