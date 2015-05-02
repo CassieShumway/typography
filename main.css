@@ -248,8 +248,11 @@ p { font-weight: 400; }
 }
 
 .transform-of {
-  margin-top: -49px;
   display: block;
+  font-size: 35px;
+  font-family: "kepler-std",serif;
+  font-weight: 600;
+  margin-top: -49px;
 }
 
 .transform-moods {
